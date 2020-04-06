@@ -1,11 +1,12 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    overflow-x: hidden;
 }
 
 header {
     background-image: url(mountains.png);
-    height: 300px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -25,25 +26,27 @@ h2 {
 
 p {
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 ul {
-    font-size: 30px;
+    font-size: 26px;
     list-style: inside;
 }
 
+#container {
+    width: 100%;
+}
+
 .table {
-    padding-left: 25%;
-    padding-right: 25%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10%;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 5%;
 }
 
 .Christ {
     margin: 0 auto;
-    padding: 20px;  
+    padding: 10%;  
     width: 20%;
 }
 
@@ -51,6 +54,20 @@ ul {
   margin: auto;
   width: 50%;
   border: 3px solid green;
-  padding: 10px;
+  padding: 1%;
+}
+
+@media screen and (max-width:749px) {
+    .main-points {
+        width: 80%;
+    }
+
+    ul {
+        font-size: 20px;
+    }
+
+    .Christ {
+        width: 50%;
+    }
 }
 
