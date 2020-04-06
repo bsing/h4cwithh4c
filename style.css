@@ -45,9 +45,11 @@ ul {
 }
 
 .Christ {
-    margin: 0 auto;
-    padding: 10%;  
-    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10%;
+    width: 50%;
 }
 
 .main-points {
@@ -55,6 +57,14 @@ ul {
   width: 50%;
   border: 3px solid green;
   padding: 1%;
+}
+
+.Romans-Road {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30pt;
+    color: red;
+    padding-bottom: 5%;
 }
 
 @media screen and (max-width:749px) {
