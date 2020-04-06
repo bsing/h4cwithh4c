@@ -58,6 +58,10 @@ ul {
 }
 
 @media screen and (max-width:749px) {
+
+    header {
+        width: 100%;
+    }
     .main-points {
         width: 80%;
     }
