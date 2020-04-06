@@ -70,6 +70,14 @@ ul {
         font-size: 20px;
     }
 
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        padding: 0 10px;
+    }
+
     .Christ {
         width: 50%;
     }
