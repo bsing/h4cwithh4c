@@ -38,6 +38,11 @@ ul {
     width: 100%;
 }
 
+#counter {
+    text-align: center;
+    font-size: 26px;
+}
+
 .table {
     margin-left: auto; 
     margin-right: auto;

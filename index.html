@@ -59,13 +59,21 @@
             <h2>Romans 10:10</h2>
             <p>For it is with your heart that you believe and are justified, and it is with your mouth that you confess and are saved</p>
 
-            <div class="table">
-                <TABLE CELLPADDING="0" BORDER="0" CELLSPACING="0" WIDTH="95">
-                    <TR><TD HEIGHT="25" WIDTH="95"><A TARGET="_blank" HREF=""><IMG WIDTH="95" HEIGHT="25" SRC="http://image-free-counter.net/desand/peckiest76.aspx?n=0" BORDER="0" ALT=""></A></TD></TR>
-                    <TR><TD HEIGHT="10"><A HREF="http://www.free-counter-plus.com/" TARGET="_blank"><IMG SRC="http://image-free-counter.net/vestures0/paughty/918.png" HEIGHT="10" ALT="Www.free-counter-plus.com" BORDER="0" WIDTH="66"></A><A TARGET="_blank" HREF="http://www.free-counter-plus.com/counter/stats/stats.asp?id=555575068"><IMG SRC="http://image-free-counter.net/arises/payouts0.cgi?HZ=cml3ey" WIDTH="29" HEIGHT="10" BORDER="0" ALT=""></A></TD></TR>
-                    <TR ALIGN="center"><TD HEIGHT="14" COLSPAN="2"></TD></TR>
-                </TABLE>
-            </div>
+            <div id="counter">0</div>
+            <p>views</p>
         </div>
+        <script>
+            const countH4 = document.getElementById('counter');
+
+            updateViewCount();
+
+            function updateViewCount() {
+	            fetch('https://api.countapi.xyz/update/h4cwithh4c/counter/?amount=1')
+		            .then(res => res.json())
+		            .then(res => {
+			            countH4.innerHTML = res.value;
+	            });
+            }
+        </script>
     </body>
 </html>
