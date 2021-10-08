@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-image: url(mountains.png);
+    background-image: url(images/mountains.png);
     height: 200px;
     margin-top: 62px;
     background-repeat: no-repeat;
