@@ -78,6 +78,17 @@ ul {
     padding-bottom: 5%;
 }
 
+.carousel-item img {
+    margin: 100px auto;
+}
+
+.carousel-control-next {
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    background-color: black;
+}
+
 @media screen and (max-width:749px) {
 
     header {
